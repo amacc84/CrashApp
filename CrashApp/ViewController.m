@@ -304,9 +304,9 @@ bool isAlright = false;
 //creates url string
 - (NSString*) createURLString:(NSString*)phoneNumber{
     //creates a URL string with the phone number passed in//
-    NSString *firstHalf = @"https://api.mogreet.com/moms/transaction.send?client_id=7102&token=7820c392ec39f98742d6fe56b44f7d5d&campaign_id=110770&to=";
+    NSString *firstHalf = @"enter web service info here";
     //does not work with sending location
-    NSString *secondHalf = @"&message=Austin%20has%20been%20in%20a%20car%20accident.%20Last%20known%20location%20is";
+    NSString *secondHalf = @"enter message here";
     
     NSString *finalHalf = [NSString stringWithFormat:@"%@%@", secondHalf, crashLocation];
     
